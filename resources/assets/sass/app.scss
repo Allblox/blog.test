@@ -1,0 +1,33 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "_variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+html {
+	background: whitesmoke;
+}
+.wrapper {
+	background: whitesmoke;
+	color: $common-text-color;
+	font-family: "roboto", arial;
+	font-size: 14px;
+	height: 100%;
+	letter-spacing: .02em;
+	padding-top: 3em;
+}
+a {
+	color: #4492d6;
+	font-weight: bold;
+}
+h2 a {
+	color: $common-text-color;
+}
+h2 a:hover {
+	text-decoration: none;
+	color: $common-text-color;
+}
